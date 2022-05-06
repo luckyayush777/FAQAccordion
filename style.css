@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height : 100%;
+    margin : 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+#MainBox{
+    display: flex; 
+    grid-template-columns: 50% 50%;
+    width: max-content;
+    background-color: white;
+    border-radius: 20px;
+    padding : 3em;
+}
+
+#ImageBox :nth-child(even){
+    transform: translate(-617px, 0px);
+}
+
+#ImageBox :nth-child(odd)
+{
+    transform: translate(-75px, 0px);
+}
