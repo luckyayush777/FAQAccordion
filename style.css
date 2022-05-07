@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 #MainBox{
@@ -19,14 +20,39 @@ body{
     width: max-content;
     background-color: white;
     border-radius: 20px;
-    padding : 3em;
+    padding : 5em;
 }
 
 #ImageBox :nth-child(even){
-    transform: translate(-617px, 0px);
+    transform: translate(-655px, -40px);
+
 }
 
+#ImageBox img{
+    overflow: hidden;
+}
 #ImageBox :nth-child(odd)
 {
-    transform: translate(-75px, 0px);
+    transform: translate(-150px, 0px);
 }
+#TextBox + h1{
+    font-family: 'Kumbh Sans', sans-serif;;
+}
+#TextBox  {
+    display: flex;
+    flex-direction: column;
+    line-height: 220%;
+    transform: translate(-45%, 0px);
+    font-weight: 300;
+   
+}
+.InnerLines{
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgb(205, 201, 201);
+}
+
+.InnerLines > img{
+    margin-left: auto;
+}
+
