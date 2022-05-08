@@ -1,1 +1,1 @@
-This is a challene from frontendmentor.io
+This is a challenge from frontendmentor.io

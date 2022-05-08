@@ -16,7 +16,10 @@ body{
 
 #MainBox{
     display: flex; 
-    grid-template-columns: 50% 50%;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -35% -40%;
     width: max-content;
     background-color: white;
     border-radius: 20px;
@@ -48,11 +51,23 @@ body{
 }
 .InnerLines{
     display: flex;
+    width: 133%;
     flex-wrap: nowrap;
     border-bottom: 1px solid rgb(205, 201, 201);
 }
 
 .InnerLines > img{
     margin-left: auto;
+    height: 20%;
+    margin-top: 4%;
 }
+
+.InnerLines:hover{
+    color: orange;
+    display: flex;
+    width: 133%;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgb(205, 201, 201);
+}
+
 
