@@ -23,7 +23,7 @@ body{
     width: max-content;
     background-color: white;
     border-radius: 20px;
-    padding : 5em;
+    padding : 4em;
 }
 
 #ImageBox :nth-child(even){
@@ -51,15 +51,15 @@ body{
 }
 .InnerLines{
     display: flex;
+    align-items: center;
     width: 133%;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     border-bottom: 1px solid rgb(205, 201, 201);
 }
 
 .InnerLines > img{
     margin-left: auto;
     height: 20%;
-    margin-top: 4%;
 }
 
 .InnerLines:hover{
@@ -68,6 +68,17 @@ body{
     width: 133%;
     flex-wrap: nowrap;
     border-bottom: 1px solid rgb(205, 201, 201);
+}
+
+.PanelClosed{
+    max-height: 0;
+    overflow: hidden;
+}
+
+.PanelOpen{
+    max-height: fit-content;
+    color: grey;
+    margin-top: 0px;   
 }
 
 
